@@ -1,242 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"> 
-    <script>
-                          function contact() {
-                              let a="9408162197";
-                              alert(a);
-                          }
-    </script>
-    <style>
-      *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-family: 'Cinzel', serif;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <script>
+    function contact() {
+      let a = "9408162197";
+      alert(a);
+    }
+  </script>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: 'Cinzel', serif;
+    }
+
+    header {
+      background-color: blueviolet;
+      box-shadow: 2px 2px rgb(188, 119, 253);
+      height: 8vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: fixed;
+      width: 100vw;
+    }
+
+    .nav_bar {
+      display: inline;
+      float: right;
+      padding-left: 45px;
+      font-size: 15pt;
+    }
+
+    .S {
+      padding-right: 450px;
+    }
+
+    @media screen and (max-width:600px) {
+      .S {
+        padding-right: 10px;
       }
-          header{
-                background-color: blueviolet;
-                box-shadow: 2px 2px rgb(188, 119, 253);
-                height: 8vh;
-                display:flex;
-                justify-content: flex-end;
-                align-items: center;
-                position: fixed;
-                width: 100vw;
-          }
 
-          .nav_bar{
-            display: inline;
-            float: right;
-            padding-left: 45px;
-            font-size: 15pt;
-          }
-        
-            h1{
-                padding-right: 450px;
-            }
+      .nav_bar {
+        padding-left: 18px;
+      }
 
-            @media screen  and (max-width:600px) {
-                  h1{
-                    padding-right: 10px;
-                  }
-                  .nav_bar{
-                    padding-left: 18px;
-                  }
-                  img{width: 100%;
-            height: 100%;}
-            }
-                 
-            
-            li{
-                text-align: left;
-            }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
 
-            @media screen  and (min-width:800px) {
-                  h1{
-                    padding-right: 400px;
-                  }
-                  .nav_bar{
-                    padding-left: 33px;
-                  }
-                  #H{
-                    width: 100%;
-                    height: 100%;
-                  }
-                  #B{
-                         width: 100vw;
-                  }
-            }  
 
-            .container{
-                font-size: 10px;
-                border: 1px solid black;
-            }
-            .content{
-                text-align:justify;
-                font-size: 1.3rem;
-            }
-            .media{
-                float: right;
-            }
+    li {
+      text-align: left;
+    }
 
-            #pro{
-                text-decoration: underline;
-               /* text-indent: 20px;
+    @media screen and (min-width:800px) {
+      .S {
+        padding-right: 363px;
+      }
+
+      .nav_bar {
+        padding-left: 33px;
+      }
+
+      #H {
+        width: 100%;
+        height: 100%;
+      }
+
+      #B {
+        width: 100vw;
+      }
+    }
+
+    .container {
+      font-size: 10px;
+      border: 1px solid black;
+    }
+
+    .content {
+      text-align: justify;
+      font-size: 1.3rem;
+    }
+
+    .media {
+      float: right;
+    }
+
+    #pro {
+      text-decoration: underline;
+      /* text-indent: 20px;
                */
-            }
-            .pro1{
-               /* text-indent: 20px;
+    }
+
+    .pro1 {
+      /* text-indent: 20px;
                */
-                list-style-type: circle;
-            }
-            .indi{
-                width: 100vw;
-            }
-            #B{
-               /* height: 92.5vh;
+      list-style-type: circle;
+    }
+
+    .indi {
+      width: 100vw;
+    }
+
+    #B {
+      /* height: 92.5vh;
                 width: 75vw;
                 */
-                width: 100vw;
-                float: right;
-                border-radius: 250px;
-            }
-            #pro2{
-              text-decoration: underline;
-            }
-            footer{
-              font-size: 20px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              background-color: tomato;
-              box-shadow: 5px 5px rgb(255, 146, 126);
-            }
-            .foot{
-              font-size: 1.5rem;
-              color: white;
-              text-shadow: 2px 2px black;
-            }
-            .S{
-              color: white;
-              text-shadow: 2px 2px black;
-            }
-            .nav_bar{
-              color: white;
-              text-shadow: 2px 2px black;
-            }
-            a{
-              text-decoration: none;
-              color: white;
-              text-shadow: 2px 2px black;
-              cursor: pointer;
-            }
-            #AB{
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              line-height: 30px;
-            
-            }
-            h4{
-              display: flex;
-              justify-content: center;
-              text-decoration: underline;
-            }
-    </style>
+      width: 100vw;
+      float: right;
+      border-radius: 250px;
+    }
+
+    #pro2 {
+      text-decoration: underline;
+    }
+
+    footer {
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: tomato;
+      box-shadow: 5px 5px rgb(255, 146, 126);
+    }
+
+    .foot {
+      font-size: 1.5rem;
+      color: white;
+      text-shadow: 2px 2px black;
+    }
+
+    .S {
+      color: white;
+      text-shadow: 2px 2px black;
+    }
+
+    .nav_bar {
+      color: white;
+      text-shadow: 2px 2px black;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      text-shadow: 2px 2px black;
+      cursor: pointer;
+    }
+
+    #AB {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 30px;
+
+    }
+
+    h4 {
+      display: flex;
+      justify-content: center;
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-           <header>
-                <h1 class="S">Pro-Ideas</h1>
-                   <nav>
-                          <ul>
-                            <li class="nav_bar"> <a onclick="contact();">Contact</a>  </li>
-                            <li class="nav_bar">  <a href="#AB">About</a></li>
-                            <li class="nav_bar">  <a href="#">Home </a> </li>
-                          </ul>
-                   </nav>
-           </header>
-           <div class="container">
-            <div class="media">
-                <img src="html.png" alt="" id="H" height="50%" width="50%">
-            </div>
-                  <div class="content">
-                   <p class="con">
-                    <br>
-                    <br><br>
-                    <h1>What is HTML ?</h1><br>
-                    <ul>
-                        <li>HTML stands for Hyper Text Markup Language.</li>
-                        <li> HTML is the standard markup language for creating Web pages.</li>
-                        <li> HTML describes the structure of a Web page.</li>
-                        <li> HTML consists of a series of elements.</li>
-                        <li> HTML elements tell the browser how to display the content.</li>
-                        <li>  HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
-                    </ul><br><hr>
-                    <p class="project">
-                        <h1 id="pro">Top 10 HTML projects ideas</h1><br>
-                        <ol>
-                            <li class="pro1">A tribute page</li>
-                            <li class="pro1" >A survey form</li>
-                            <li class="pro1" >Technical documentation page</li>
-                            <li class="pro1" >Landing page</li>
-                            <li class="pro1" >Event page</li>
-                            <li class="pro1" >Parallax website</li>
-                            <li class="pro1" >Personal portfolio page</li>
-                            <li class="pro1" >Restaurant website </li>
-                            <li class="pro1" >Music store page</li>
-                            <li class="pro1" > Photography website</li>
-                        </ol>
-                    </p>
-                   </p>
-                  </div>
-                   <hr>
-                   <div class="media">
-                    <img src="css.png" id="B">
-                   </div>
-                   <div class="content">
-                    <p class="con"><br>
-                      <br><br>
-                        <h1>What is CSS ?</h1><br>
-                        <ul>
-                          <li>CSS stands for Cascading Style Sheets</li>
-                          <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
-                          <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
-                          <li>External stylesheets are stored in CSS files</li>
-                        </ul><br><br><br><br><br><br><br><hr>
-                        <p class="project">
-                        <h1 id="pro2">Top  10 CSS projects ideas</h1><br>
-                        <ol>
-                          <li>Revamp an existing site using modern CSS themes</li>
-                          <li>Transform a website into a printer-friendly version</li>
-                          <li>Change the layout of a form</li>
-                          <li>Improve the speed of a website</li>
-                          <li>Solar system animation</li>
-                          <li>Pure CSS minesweeper</li>
-                          <li> Day-night toggles</li>
-                          <li>Custom map creator</li>
-                          <li>Animated 3D bar charts</li>
-                          <li>iOS 7 icons</li>
-                        </ol>
-                        </p>
-                    </p><hr><h4>About</h4>
-                    <div id="AB">
-                      <p>
-                        Website Developer: Sahil Bhavsar. <br>
-                        Website-type: static. <br>
-                        Instagram: the_sahil_bhavsar. <br>
-                      </p>
-                    </div>
-           </div>
-           <footer>
-            <p class="foot">Copyright &copy; Sahil Bhavsar</p>
-           </footer>
+  <header>
+    <h2 class="S">Pro-Ideas</h2>
+    <nav>
+      <ul>
+        <li class="nav_bar"> <a onclick="contact();">Contact</a> </li>
+        <li class="nav_bar"> <a href="#AB">About</a></li>
+        <li class="nav_bar"> <a href="#">Home </a> </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="media">
+      <img src="html.png" alt="" id="H" height="50%" width="50%">
+    </div>
+    <div class="content">
+      <p class="con">
+        <br>
+        <br><br>
+      <h1>What is HTML ?</h1><br>
+      <ul>
+        <li>HTML stands for Hyper Text Markup Language.</li>
+        <li> HTML is the standard markup language for creating Web pages.</li>
+        <li> HTML describes the structure of a Web page.</li>
+        <li> HTML consists of a series of elements.</li>
+        <li> HTML elements tell the browser how to display the content.</li>
+        <li> HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link",
+          etc.</li>
+      </ul><br>
+      <hr>
+      <p class="project">
+      <h1 id="pro">Top 10 HTML projects ideas</h1><br>
+      <ol>
+        <li class="pro1">A tribute page</li>
+        <li class="pro1">A survey form</li>
+        <li class="pro1">Technical documentation page</li>
+        <li class="pro1">Landing page</li>
+        <li class="pro1">Event page</li>
+        <li class="pro1">Parallax website</li>
+        <li class="pro1">Personal portfolio page</li>
+        <li class="pro1">Restaurant website </li>
+        <li class="pro1">Music store page</li>
+        <li class="pro1"> Photography website</li>
+      </ol>
+      </p>
+      </p>
+    </div>
+    <hr>
+    <div class="media">
+      <img src="css.png" id="B">
+    </div>
+    <div class="content">
+      <p class="con"><br>
+        <br><br>
+      <h1>What is CSS ?</h1><br>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+      </ul><br><br><br><br><br><br><br>
+      <hr>
+      <p class="project">
+      <h1 id="pro2">Top 10 CSS projects ideas</h1><br>
+      <ol>
+        <li>Revamp an existing site using modern CSS themes</li>
+        <li>Transform a website into a printer-friendly version</li>
+        <li>Change the layout of a form</li>
+        <li>Improve the speed of a website</li>
+        <li>Solar system animation</li>
+        <li>Pure CSS minesweeper</li>
+        <li> Day-night toggles</li>
+        <li>Custom map creator</li>
+        <li>Animated 3D bar charts</li>
+        <li>iOS 7 icons</li>
+      </ol>
+      </p>
+      </p>
+      <hr>
+      <h4>About</h4>
+      <div id="AB">
+        <p>
+          Website Developer: Sahil Bhavsar. <br>
+          Website-type: static. <br>
+          Instagram: the_sahil_bhavsar. <br>
+        </p>
+      </div>
+    </div>
+    <footer>
+      <p class="foot">Copyright &copy; Sahil Bhavsar</p>
+    </footer>
 </body>
+
 </html>
